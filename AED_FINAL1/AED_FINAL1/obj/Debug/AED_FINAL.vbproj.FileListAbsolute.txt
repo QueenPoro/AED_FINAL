@@ -1,0 +1,12 @@
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\bin\Debug\AED_FINAL.exe.config
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\bin\Debug\AED_FINAL.exe
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\bin\Debug\AED_FINAL.pdb
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\bin\Debug\AED_FINAL.xml
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.vbprojResolveAssemblyReference.cache
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.Form1.resources
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.Resources.resources
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.vbproj.GenerateResource.Cache
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.vbproj.CoreCompileInputs.cache
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.exe
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.xml
+C:\Users\scarlethsotelo\AppData\Local\Temporary Projects\AED_FINAL\obj\Debug\AED_FINAL.pdb

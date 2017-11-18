@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F8D2543D-3623-4E0F-955D-1AC759A6ED10}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AED_FINAL.My.MyApplication</StartupObject>
+    <RootNamespace>AED_FINAL</RootNamespace>
+    <AssemblyName>AED_FINAL1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>AED_FINAL1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>AED_FINAL1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>\\mac\Home\Downloads\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.Designer.vb">
+      <DependentUpon>admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\admin_MANT.Designer.vb">
+      <DependentUpon>admin_MANT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\admin_MANT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\alquiler.Designer.vb">
+      <DependentUpon>alquiler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\alquiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\comercial.Designer.vb">
+      <DependentUpon>comercial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\comercial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\piso.Designer.vb">
+      <DependentUpon>piso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\piso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\venta.Designer.vb">
+      <DependentUpon>venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Inmuebles\venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_agencias.Designer.vb">
+      <DependentUpon>Mant_agencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_agencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_clientes.Designer.vb">
+      <DependentUpon>Mant_clientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_clientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_inmuebles.Designer.vb">
+      <DependentUpon>Mant_inmuebles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_inmuebles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_vendedores.Designer.vb">
+      <DependentUpon>Mant_vendedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Mantenimiento\Mant_vendedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codigo.vb" />
+    <Compile Include="conexion.vb" />
+    <Compile Include="Consulta.vb" />
+    <Compile Include="DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficos\ABB.Designer.vb">
+      <DependentUpon>ABB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Graficos\ABB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Graficos\ABB\NodoArbol.vb" />
+    <Compile Include="Graficos\LE.Designer.vb">
+      <DependentUpon>LE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Graficos\LE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.vb">
+      <DependentUpon>inicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LED_y_AB.Designer.vb">
+      <DependentUpon>LED_y_AB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LED_y_AB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="vendedor.Designer.vb">
+      <DependentUpon>vendedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedor\alquiler\realizar_alquiler.Designer.vb">
+      <DependentUpon>realizar_alquiler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendedor\alquiler\realizar_alquiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedor\vendedor_alquiler.Designer.vb">
+      <DependentUpon>vendedor_alquiler.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendedor\vendedor_alquiler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedor\vendedor_venta.Designer.vb">
+      <DependentUpon>vendedor_venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendedor\vendedor_venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vendedor\venta\realizar_venta.Designer.vb">
+      <DependentUpon>realizar_venta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="vendedor\venta\realizar_venta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\admin_MANT.resx">
+      <DependentUpon>admin_MANT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Inmuebles\alquiler.resx">
+      <DependentUpon>alquiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Inmuebles\comercial.resx">
+      <DependentUpon>comercial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Inmuebles\piso.resx">
+      <DependentUpon>piso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Inmuebles\venta.resx">
+      <DependentUpon>venta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Mant_agencias.resx">
+      <DependentUpon>Mant_agencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Mant_clientes.resx">
+      <DependentUpon>Mant_clientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Mant_inmuebles.resx">
+      <DependentUpon>Mant_inmuebles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Mantenimiento\Mant_vendedores.resx">
+      <DependentUpon>Mant_vendedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficos\ABB.resx">
+      <DependentUpon>ABB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Graficos\LE.resx">
+      <DependentUpon>LE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LED_y_AB.resx">
+      <DependentUpon>LED_y_AB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedor.resx">
+      <DependentUpon>vendedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedor\alquiler\realizar_alquiler.resx">
+      <DependentUpon>realizar_alquiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedor\vendedor_alquiler.resx">
+      <DependentUpon>vendedor_alquiler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedor\vendedor_venta.resx">
+      <DependentUpon>vendedor_venta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vendedor\venta\realizar_venta.resx">
+      <DependentUpon>realizar_venta.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DatabaseDataSet.xsc">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet.xss">
+      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet1.xsc">
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DatabaseDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DatabaseDataSet1.xss">
+      <DependentUpon>DatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
