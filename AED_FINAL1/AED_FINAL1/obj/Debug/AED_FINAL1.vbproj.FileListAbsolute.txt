@@ -30,5 +30,3 @@ C:\Users\scarlethsotelo\source\repos\AED_FINAL1\AED_FINAL1\obj\Debug\AED_FINAL.a
 C:\Users\scarlethsotelo\source\repos\AED_FINAL1\AED_FINAL1\obj\Debug\AED_FINAL.venta.resources
 C:\Users\scarlethsotelo\source\repos\AED_FINAL1\AED_FINAL1\obj\Debug\AED_FINAL.comercial.resources
 C:\Users\scarlethsotelo\source\repos\AED_FINAL1\AED_FINAL1\obj\Debug\AED_FINAL.piso.resources
-C:\Users\scarlethsotelo\source\repos\AED_FINAL1\AED_FINAL1\obj\Debug\AED_FINAL.ABB.resources
-C:\Users\scarlethsotelo\source\repos\AED_FINAL1\AED_FINAL1\obj\Debug\AED_FINAL.LE.resources

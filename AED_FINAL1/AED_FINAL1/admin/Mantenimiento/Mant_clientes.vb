@@ -25,11 +25,6 @@ Public Class Mant_clientes
         cbox_idinmueble.DataSource = tabla
         cbox_idinmueble.DisplayMember = "Id_inmueble"
 
-        'Dim intValue(cbox_idinmueble.Items.Count - 1) As Integer
-
-        'For i As Integer = 0 To cbox_idinmueble.Items.Count - 1
-        'cbox_idinmueble.SelectedIndex = i
-        'Next
     End Sub
 
     Dim activar_agregar As Boolean = False

@@ -32,7 +32,6 @@ Partial Class LED_y_AB
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.panel = New System.Windows.Forms.Panel()
         Me.BunifuGradientPanel2.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -115,7 +114,7 @@ Partial Class LED_y_AB
         Me.btn_ABB.IconVisible = True
         Me.btn_ABB.IconZoom = 70.0R
         Me.btn_ABB.IsTab = False
-        Me.btn_ABB.Location = New System.Drawing.Point(0, 80)
+        Me.btn_ABB.Location = New System.Drawing.Point(0, 22)
         Me.btn_ABB.Name = "btn_ABB"
         Me.btn_ABB.Normalcolor = System.Drawing.Color.Transparent
         Me.btn_ABB.OnHovercolor = System.Drawing.Color.LightSlateGray
@@ -149,7 +148,7 @@ Partial Class LED_y_AB
         Me.btn_LED.IconVisible = True
         Me.btn_LED.IconZoom = 70.0R
         Me.btn_LED.IsTab = False
-        Me.btn_LED.Location = New System.Drawing.Point(0, 32)
+        Me.btn_LED.Location = New System.Drawing.Point(0, 76)
         Me.btn_LED.Name = "btn_LED"
         Me.btn_LED.Normalcolor = System.Drawing.Color.Transparent
         Me.btn_LED.OnHovercolor = System.Drawing.Color.LightSlateGray
@@ -193,19 +192,11 @@ Partial Class LED_y_AB
         Me.BunifuCustomLabel1.TabIndex = 0
         Me.BunifuCustomLabel1.Text = "TECHNOHOUSE"
         '
-        'panel
-        '
-        Me.panel.Location = New System.Drawing.Point(222, 13)
-        Me.panel.Name = "panel"
-        Me.panel.Size = New System.Drawing.Size(939, 559)
-        Me.panel.TabIndex = 21
-        '
         'LED_y_AB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1173, 584)
-        Me.Controls.Add(Me.panel)
         Me.Controls.Add(Me.BunifuGradientPanel2)
         Me.Controls.Add(Me.Panel2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -227,5 +218,4 @@ Partial Class LED_y_AB
     Friend WithEvents Panel2 As Panel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents panel As Panel
 End Class

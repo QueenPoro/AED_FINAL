@@ -171,19 +171,8 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Graficos\ABB.Designer.vb">
-      <DependentUpon>ABB.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Graficos\ABB.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Graficos\ABB\NodoArbol.vb" />
-    <Compile Include="Graficos\LE.Designer.vb">
-      <DependentUpon>LE.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Graficos\LE.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Graficos\LED\NodoLista.vb" />
     <Compile Include="inicio.Designer.vb">
       <DependentUpon>inicio.vb</DependentUpon>
     </Compile>
@@ -275,12 +264,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Graficos\ABB.resx">
-      <DependentUpon>ABB.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Graficos\LE.resx">
-      <DependentUpon>LE.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.vb</DependentUpon>

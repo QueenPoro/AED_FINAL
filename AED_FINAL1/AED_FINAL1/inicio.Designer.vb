@@ -26,13 +26,14 @@ Partial Class inicio
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(inicio))
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.BunifuGradientPanel2 = New Bunifu.Framework.UI.BunifuGradientPanel()
+        Me.BunifuTileButton3 = New Bunifu.Framework.UI.BunifuTileButton()
         Me.BunifuTileButton2 = New Bunifu.Framework.UI.BunifuTileButton()
         Me.BunifuTileButton1 = New Bunifu.Framework.UI.BunifuTileButton()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuTileButton3 = New Bunifu.Framework.UI.BunifuTileButton()
+        Me.BunifuTileButton4 = New Bunifu.Framework.UI.BunifuTileButton()
         Me.BunifuGradientPanel2.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,6 +49,7 @@ Partial Class inicio
         '
         Me.BunifuGradientPanel2.BackgroundImage = CType(resources.GetObject("BunifuGradientPanel2.BackgroundImage"), System.Drawing.Image)
         Me.BunifuGradientPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BunifuGradientPanel2.Controls.Add(Me.BunifuTileButton4)
         Me.BunifuGradientPanel2.Controls.Add(Me.BunifuTileButton3)
         Me.BunifuGradientPanel2.Controls.Add(Me.BunifuTileButton2)
         Me.BunifuGradientPanel2.Controls.Add(Me.BunifuTileButton1)
@@ -63,6 +65,25 @@ Partial Class inicio
         Me.BunifuGradientPanel2.Size = New System.Drawing.Size(1173, 584)
         Me.BunifuGradientPanel2.TabIndex = 3
         '
+        'BunifuTileButton3
+        '
+        Me.BunifuTileButton3.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuTileButton3.color = System.Drawing.Color.Transparent
+        Me.BunifuTileButton3.colorActive = System.Drawing.Color.LightSteelBlue
+        Me.BunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTileButton3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuTileButton3.ForeColor = System.Drawing.Color.White
+        Me.BunifuTileButton3.Image = CType(resources.GetObject("BunifuTileButton3.Image"), System.Drawing.Image)
+        Me.BunifuTileButton3.ImagePosition = 20
+        Me.BunifuTileButton3.ImageZoom = 50
+        Me.BunifuTileButton3.LabelPosition = 41
+        Me.BunifuTileButton3.LabelText = "Estructuras Graficas"
+        Me.BunifuTileButton3.Location = New System.Drawing.Point(592, 356)
+        Me.BunifuTileButton3.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
+        Me.BunifuTileButton3.Name = "BunifuTileButton3"
+        Me.BunifuTileButton3.Size = New System.Drawing.Size(134, 129)
+        Me.BunifuTileButton3.TabIndex = 10
+        '
         'BunifuTileButton2
         '
         Me.BunifuTileButton2.BackColor = System.Drawing.Color.Transparent
@@ -76,7 +97,7 @@ Partial Class inicio
         Me.BunifuTileButton2.ImageZoom = 50
         Me.BunifuTileButton2.LabelPosition = 41
         Me.BunifuTileButton2.LabelText = "Administrador"
-        Me.BunifuTileButton2.Location = New System.Drawing.Point(523, 356)
+        Me.BunifuTileButton2.Location = New System.Drawing.Point(446, 356)
         Me.BunifuTileButton2.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.BunifuTileButton2.Name = "BunifuTileButton2"
         Me.BunifuTileButton2.Size = New System.Drawing.Size(134, 129)
@@ -95,7 +116,7 @@ Partial Class inicio
         Me.BunifuTileButton1.ImageZoom = 50
         Me.BunifuTileButton1.LabelPosition = 41
         Me.BunifuTileButton1.LabelText = "Vendedor"
-        Me.BunifuTileButton1.Location = New System.Drawing.Point(354, 356)
+        Me.BunifuTileButton1.Location = New System.Drawing.Point(300, 356)
         Me.BunifuTileButton1.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
         Me.BunifuTileButton1.Name = "BunifuTileButton1"
         Me.BunifuTileButton1.Size = New System.Drawing.Size(134, 129)
@@ -149,24 +170,24 @@ Partial Class inicio
         Me.BunifuCustomLabel1.TabIndex = 0
         Me.BunifuCustomLabel1.Text = "TECHNOHOUSE"
         '
-        'BunifuTileButton3
+        'BunifuTileButton4
         '
-        Me.BunifuTileButton3.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuTileButton3.color = System.Drawing.Color.Transparent
-        Me.BunifuTileButton3.colorActive = System.Drawing.Color.LightSteelBlue
-        Me.BunifuTileButton3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BunifuTileButton3.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuTileButton3.ForeColor = System.Drawing.Color.White
-        Me.BunifuTileButton3.Image = CType(resources.GetObject("BunifuTileButton3.Image"), System.Drawing.Image)
-        Me.BunifuTileButton3.ImagePosition = 20
-        Me.BunifuTileButton3.ImageZoom = 50
-        Me.BunifuTileButton3.LabelPosition = 41
-        Me.BunifuTileButton3.LabelText = "Estructuras Graficas"
-        Me.BunifuTileButton3.Location = New System.Drawing.Point(684, 356)
-        Me.BunifuTileButton3.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
-        Me.BunifuTileButton3.Name = "BunifuTileButton3"
-        Me.BunifuTileButton3.Size = New System.Drawing.Size(134, 129)
-        Me.BunifuTileButton3.TabIndex = 10
+        Me.BunifuTileButton4.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuTileButton4.color = System.Drawing.Color.Transparent
+        Me.BunifuTileButton4.colorActive = System.Drawing.Color.LightSteelBlue
+        Me.BunifuTileButton4.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BunifuTileButton4.Font = New System.Drawing.Font("Segoe UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuTileButton4.ForeColor = System.Drawing.Color.White
+        Me.BunifuTileButton4.Image = CType(resources.GetObject("BunifuTileButton4.Image"), System.Drawing.Image)
+        Me.BunifuTileButton4.ImagePosition = 20
+        Me.BunifuTileButton4.ImageZoom = 50
+        Me.BunifuTileButton4.LabelPosition = 41
+        Me.BunifuTileButton4.LabelText = "Acerca de"
+        Me.BunifuTileButton4.Location = New System.Drawing.Point(738, 356)
+        Me.BunifuTileButton4.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
+        Me.BunifuTileButton4.Name = "BunifuTileButton4"
+        Me.BunifuTileButton4.Size = New System.Drawing.Size(134, 129)
+        Me.BunifuTileButton4.TabIndex = 11
         '
         'inicio
         '
@@ -195,4 +216,5 @@ Partial Class inicio
     Friend WithEvents BunifuTileButton1 As Bunifu.Framework.UI.BunifuTileButton
     Friend WithEvents BunifuTileButton2 As Bunifu.Framework.UI.BunifuTileButton
     Friend WithEvents BunifuTileButton3 As Bunifu.Framework.UI.BunifuTileButton
+    Friend WithEvents BunifuTileButton4 As Bunifu.Framework.UI.BunifuTileButton
 End Class

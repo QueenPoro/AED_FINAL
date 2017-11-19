@@ -1,4 +1,5 @@
-﻿Public Class vendedor_alquiler
+﻿Imports System.Data.SqlClient
+Public Class vendedor_alquiler
 
     Private Sub tbox_buscar_Enter(sender As Object, e As EventArgs)
         tbox_buscar.text = ""
@@ -16,26 +17,36 @@
     End Sub
 
     Private Sub BunifuThinButton21_Click(sender As Object, e As EventArgs) Handles BunifuThinButton21.Click
-        Me.Panel1.Controls.Clear()
+        Me.Controls.Clear()
 
         Dim frm As New realizar_alquiler With {
             .TopLevel = False,
             .Visible = True
         }
 
-        Me.Panel1.Controls.Add(frm)
+        Me.Controls.Add(frm)
         frm.Show()
     End Sub
 
     Private Sub vendedor_alquiler_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        mostrar_datos()
+        cargar_cbox()
 
     End Sub
 
-    Dim conexion As New consulta
+    Dim consulta As New consulta
 
-    Public Sub mostrar_datos()
-        conexion.Consulta("select * from Agencias", "Agencias")
-        DgvDatos.DataSource = conexion.ds.Tables("Agencias")
+    Private Sub cargar_cbox()
+        Dim tabla As New DataTable
+        Dim sql As String = "SELECT Nombre FROM Agencias"
+        Dim da As SqlDataAdapter = New SqlDataAdapter(sql, consulta.conection)
+        da.Fill(tabla)
+
+        cbox_agencia.DataSource = tabla
+        cbox_agencia.DisplayMember = "Nombre"
+    End Sub
+
+    Private Sub cbox_agencia_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbox_agencia.SelectedIndexChanged
+        consulta.Consulta("SELECT * FROM Agencias WHERE Nombre='" & cbox_agencia.Text & "'", "Agencias")
+        DgvDatos.DataSource = consulta.ds.Tables("Agencias")
     End Sub
 End Class
